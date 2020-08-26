@@ -1,37 +1,118 @@
-*/ header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+* {
+	padding: 0;
+	margin: 0;
 }
-
-.logo {
-    border-radius: 50%;
-    width: 50%;
-    height: 50%;
-    border: 2px solid#ooo;
-    box: :shadow:0 0 10px #0000;
-    position: center;
-
-}
-
 
 img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+	display: block;
 }
 
+header .cv-photo {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 20px auto 20px;
+	/*border-radius: 1000px 10px 7px 20px;*/
+}
 
+header .cv-photo img {
+	width: 100%;
+}
 
+/*
+.name {
+	text-align: center;
+	position: relative;
+	animation-name: name2;
+	animation-duration: 4s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes name2 {
+	0% {
+		color: black;
+
+	}
+
+	50% {
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.55);
+	}
+
+	100% {
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.55);
+		color: rgb(48, 48, 48);
+	}
+}
+
+*/
+
+h1 {
+	text-align: center;
+}
 
 h2 {
-    color: gray;
+	text-align: center;
+	color: gray;
 }
 
+a {
+	text-decoration: none;
+}
 
-#cv {
-    color: red;
+li {
+	list-style: none;
+}
 
+/*navigtion Styling*/
+.main-nav {
+	width: 250px;
+	background: rgba(180, 205, 203, 1.00);
+}
 
+.main-nav a {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #fff;
+	display: block;
+	padding: 10px 0 10px 20px;
+	border-bottom: 1px dotted white;
+}
 
+.main-nav a:hover {
+	background: rgba(121, 165, 162, 1.00);
+}
+.main-nav-ul ul {
+	display: none;
+}
+
+.main-nav-ul li:hover ul {
+	display: block;
+}
+. .skill .progress-bar {
+	border: 1px solid gray;
+	border-radius: 6px;
+
+	/* indivdual side*/
+	width: 30%;
+	border-width: 1px;
+}
+
+.skill .progress {
+	background-color: aqua;
+	height: 10px;
+	border-radius: 5px;
+}
+
+nav a {
+	display: block;
+	/* background-color: gray;
+    margin: 10px 0;
+    margin-top: 1px;*/
+}
+
+.skill h2 {
+	display: inline;
+	background-color: gray;
 }
